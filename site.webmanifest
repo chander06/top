@@ -1,0 +1,29 @@
+{
+  "name": "THE PAPPAPPERO — Hosteria, Cucina Romana",
+  "short_name": "Pappappero",
+  "lang": "it",
+  "description": "Cucina romana, tutto fatto in casa. Frascati e Casal Palocco.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1C1B19",
+  "theme_color": "#1C1B19",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

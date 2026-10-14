@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pagina non trovata — THE PAPPAPPERO</title>
+<style>
+  html,body{margin:0;height:100%}
+  body{background:#1C1B19;color:#F6F1E7;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;display:grid;place-items:center;text-align:center;padding:24px;box-sizing:border-box}
+  .d{width:120px;height:120px;border-radius:50%;background:#EC9A1E;margin:0 auto 32px}
+  h1{font-size:clamp(40px,8vw,72px);line-height:.95;margin:0 0 16px;text-transform:uppercase;letter-spacing:-.01em;font-weight:900}
+  p{color:#B9B2A5;margin:0 0 32px;font-size:18px}
+  a{display:inline-flex;align-items:center;min-height:52px;padding:0 24px;border-radius:999px;background:#EC9A1E;color:#1C1B19;text-decoration:none;font-weight:700}
+  a:hover{background:#F4AC3A}
+  a:focus-visible{outline:2px solid #F6F1E7;outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <div class="d" aria-hidden="true"></div>
+  <h1>Questo tavolo<br>non esiste.</h1>
+  <p>La pagina che cerchi non c’è, o ha cambiato indirizzo.</p>
+  <a id="home" href="/">Torna alla home</a>
+</main>
+<script>
+  // Su GitHub Pages senza dominio personalizzato il sito vive in /nome-repository/
+  (function(){var h=location.hostname,p=location.pathname.split('/').filter(Boolean);
+  if(/\.github\.io$/.test(h)&&p.length&&!/^[^.]+\.github\.io$/.test(p[0]))document.getElementById('home').href='/'+p[0]+'/';})();
+</script>
+</body>
+</html>
